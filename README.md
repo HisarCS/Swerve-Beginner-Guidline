@@ -4,3 +4,5 @@ We are team 6431 from Istanbul Turkey and a team which is using the swerve drive
 
 ### Setting up your Spark Max's ID
 
+### Setting up your CANCoders
+
