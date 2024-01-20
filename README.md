@@ -5,7 +5,9 @@ We are team 6431 from Istanbul Turkey and a team which is using the swerve drive
 ### Setting up your Spark Max's ID
 
 Spark Max's are motor controller commonly used on a swerve drive. Spark Max's are connected in a CAN cycle in a series connection so you can't ID them via the Roborio pins. You have to use a certain software: REV HARDWARE CLIENT to do that. Firstly, you have to connect a usb-c cable to the Spark Max's usb-c port. 
+
 <img width="361" alt="Ekran Resmi 2024-01-20 21 22 17" src="https://github.com/HisarCS/Swerve-Beginner-Guidline/assets/120194760/65c57242-1264-488b-92d5-087d0251779e">
+
 (usb-c port displayed here)
 
 After the connection is esthablished a few seconds later the Spark Max will be visible on the REV Hardware client.
