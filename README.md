@@ -18,6 +18,8 @@ Here is how it appears. Altough it'll have an ID 0 because it isn't configured y
 
 This will appear if you have an up to date Spark Max if it needs an update an update screen will appear where you have to first do an update to acsess the main menu
 
+In the main menu you'll have to change the CAN ID to be something other than zero and then scroll down to the bottom of the page to BURN FLASH. If you don't burn flash config wouldn't be saved.
+
 ### Setting up your CANCoders
 
 
