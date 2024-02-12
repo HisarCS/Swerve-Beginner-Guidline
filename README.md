@@ -22,10 +22,20 @@ This will appear if you have an up to date Spark Max if it needs an update an up
 
 In the main menu you'll have to change the CAN ID to be something other than zero and then scroll down to the bottom of the page to BURN FLASH. If you don't burn flash config wouldn't be saved.
 
-### Setting up your CANIvore(if you are using one)
+### Setting up your CANIvore(if you are using one(!RECOMMENDED!)
 
-The CANIvore is basically a device which enhances the quality of your CAN connection. Using the CANIvore quite improves you CAN connection. Firstly, you have to obviously set up you CAN bus and connect the CANIvore to your CAN bus. Next, you have to connect to your robot either through ethernet or through wifi(via the radio). Then, you have to install the phoneix tuner from: https://store.ctr-electronics.com/software/  
+The CANIvore is basically a device which enhances the quality of your CAN connection. Using the CANIvore quite improves you CAN connection. Firstly, you have to obviously set up you CAN bus and connect the CANIvore to your CAN bus. Next, you have to connect to your robot either through ethernet or through wifi(via the radio). Then, you have to install the phoneix tuner from: https://store.ctr-electronics.com/software/ . Once the software is install press the button on the top left and select the CANIvore tab. If all the connections are perfectly up to standarts you must see this screen:
 
 
+<img width="599" alt="Ekran Resmi 2024-02-12 14 17 05" src="https://github.com/HisarCS/Swerve-Beginner-Guidline/assets/120194760/e2275fc6-c03b-43a9-8edf-a03eb11bb293">
+
+If you are not able to see the CANIvore either your CANIvore is broken(which is quite a small possibility) or there is a fallacy in your CAN connection. Please completely check your CAN connection make sure there aren't any loose wires or missing connections. Once you have fixed these issues you'll be able to see the CANIvore
+
+Now that you are able to see the CANIvore you must set up a couple of things. You have to set up: the firmware if not up to the latest version, also you have to setup your CANIvore name to your liking(it'll be used in the code)
+
+
+### Setting Up your CANCoders(if you are using CANCcoder's)
+
+CANcoder's are magnetic encoders which know the rotarary position of the swerve modules via communicating with the CAN bus. To set up your CANCoders you firstly have to connect them to the CAN bus, again you have to make sure that your CAN Bus is fully connected and on an acceptable level. Additionally, if you didn't buy the CANCoders pre soldered be sure you have perfectly soldered the CANCoders.
 
 
