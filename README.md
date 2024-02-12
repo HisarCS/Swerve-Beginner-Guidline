@@ -22,6 +22,10 @@ This will appear if you have an up to date Spark Max if it needs an update an up
 
 In the main menu you'll have to change the CAN ID to be something other than zero and then scroll down to the bottom of the page to BURN FLASH. If you don't burn flash config wouldn't be saved.
 
-### Setting up your CANCoders
+### Setting up your CANIvore(if you are using one)
+
+The CANIvore is basically a device which enhances the quality of your CAN connection. Using the CANIvore quite improves you CAN connection. Firstly, you have to obviously set up you CAN bus and connect the CANIvore to your CAN bus. Next, you have to connect to your robot either through ethernet or through wifi(via the radio). Then, you have to install the phoneix tuner from: https://store.ctr-electronics.com/software/  
+
+
 
 
