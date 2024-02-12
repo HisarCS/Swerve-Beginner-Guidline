@@ -34,8 +34,16 @@ If you are not able to see the CANIvore either your CANIvore is broken(which is 
 Now that you are able to see the CANIvore you must set up a couple of things. You have to set up: the firmware if not up to the latest version, also you have to setup your CANIvore name to your liking(it'll be used in the code)
 
 
-### Setting Up your CANCoders(if you are using CANCcoder's)
+### Setting Up your CANCoders(if you are using CANcoder's)
 
 CANcoder's are magnetic encoders which know the rotarary position of the swerve modules via communicating with the CAN bus. To set up your CANCoders you firstly have to connect them to the CAN bus, again you have to make sure that your CAN Bus is fully connected and on an acceptable level. Additionally, if you didn't buy the CANCoders pre soldered be sure you have perfectly soldered the CANCoders.
 
+After you have checked the electronics and soldering connect to the robot via ethernet or wifi and open Phoneix Tuner
 
+<img width="646" alt="Ekran Resmi 2024-02-12 14 58 37" src="https://github.com/HisarCS/Swerve-Beginner-Guidline/assets/120194760/15c5ec40-d789-4c6f-90e9-0c18b5066972">
+
+Altough the CANcoders have different id's here the only id your's will have will be id zero which means not configured. To configure CANcoders you have to click onto the CANcoder rectangles on your screen. Once you do that you'll see a bar like the bar below on the left hand side of the screen.
+
+<img width="175" alt="Ekran Resmi 2024-02-12 15 24 11" src="https://github.com/HisarCS/Swerve-Beginner-Guidline/assets/120194760/ea7a03ba-a218-4d70-8a53-877c58b481ac">
+
+Here you firstly have to choose phoneix 6 from the dropdown menu write bove the update firmware  button and then click update firmware just to be safe. After that you have to set and ID via the ID input space and then click the set button. If you want to you can give your cancoder a named as well(not required, recommended).
