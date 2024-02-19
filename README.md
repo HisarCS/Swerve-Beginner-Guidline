@@ -47,3 +47,6 @@ Altough the CANcoders have different id's here the only id your's will have will
 <img width="175" alt="Ekran Resmi 2024-02-12 15 24 11" src="https://github.com/HisarCS/Swerve-Beginner-Guidline/assets/120194760/ea7a03ba-a218-4d70-8a53-877c58b481ac">
 
 Here you firstly have to choose phoneix 6 from the dropdown menu write bove the update firmware  button and then click update firmware just to be safe. After that you have to set and ID via the ID input space and then click the set button. If you want to you can give your cancoder a named as well(not required, recommended).
+
+After these processes you are done with your Cancoder(s) and ready to go.
+
